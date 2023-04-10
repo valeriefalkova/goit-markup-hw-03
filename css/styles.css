@@ -73,6 +73,7 @@ body{
 
 /*HEADER*/
 .header-section{
+  
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #E7E9FC;
@@ -260,6 +261,8 @@ background-color: #404bbf;
 .team-section{
   background-color:var(--light-color);
   padding: 120px 0;
+  margin-top: auto;
+  margin-bottom: auto;
   }
 
 .employee-list{
@@ -272,7 +275,9 @@ background-color: #404bbf;
   }
 .team-card{
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
+  border-radius: 0px 0px 4px;
+  border-top: none;
 }
 .employee-list .features-title,
 .employee-list .features-text{
@@ -303,6 +308,8 @@ background-color: #404bbf;
   padding: 96px 0 120px;
   padding-top: 96px;
   padding-bottom: 120px;
+  margin-top: auto;
+  margin-bottom: auto;
   }
   .portfolio-list{
     display: flex;
