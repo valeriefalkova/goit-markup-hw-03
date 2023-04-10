@@ -25,6 +25,14 @@
   padding-right: 15px;
   outline: 2px solid tomato;
 }
+ 
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 
 .link {
   color: currentColor;
