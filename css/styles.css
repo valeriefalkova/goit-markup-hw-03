@@ -235,8 +235,9 @@ background-color: #404bbf;
 .what-section{
   background: var(--white-color);
   padding:120px 0px;
+ 
 }
-.what-container{
+.what-section .container{
   border-radius: 0px 0px 4px 4px;
   padding: 32px 16px;
 }
@@ -274,8 +275,7 @@ background-color: #404bbf;
   flex-basis: calc(100%-72)/4;
   }
 .team-card{
-  padding-top: 32px;
-  padding-bottom: 16px;
+  padding: 32px 16px;
   border-radius: 0px 0px 4px;
   border-top: none;
 }
