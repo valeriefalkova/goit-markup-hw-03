@@ -103,6 +103,8 @@ body{
   margin: 40px;
 }
 .logo-link{
+  display: inline-block;
+  margin-bottom: 16px; 
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -165,7 +167,7 @@ body{
   text-align: center;
 }
 .hero-title{
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -176,6 +178,8 @@ body{
   margin-right: auto;
 }
 .order-btn{
+display: block;
+min-width: 169px;
 font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -227,9 +231,13 @@ background-color: #404bbf;
   color: var(--general-text-color)
   }
 /*WHAT ARE WE DOING*/
-.what-container{
+.what-section{
   background: var(--white-color);
-  padding-bottom: 120px;
+  padding:120px 0px;
+}
+.what-container{
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 16px;
 }
 .what-list{
   display: flex;
@@ -251,6 +259,7 @@ background-color: #404bbf;
 /*OUR TEAM*/
 .team-section{
   background-color:var(--light-color);
+  padding: 120px 0;
   }
 
 .employee-list{
@@ -291,8 +300,9 @@ background-color: #404bbf;
 
   /*PORTFOLIO*/
   .portfolio-section{
-    padding-top: 96px;
-    padding-bottom: 120px;
+  padding: 96px 0 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
   }
   .portfolio-list{
     display: flex;
@@ -314,27 +324,34 @@ background-color: #404bbf;
     cursor: pointer;
     }
     
-    .portfolio-btn:hover,
-    .portfolio-btn:focus {
+    .portfolio-btn:hover{
+    border: 1px solid transparent;
     background: #404bbf;
     color: var(--white-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
     }
+    .portfolio-btn:focus{
+    border: 1px solid transparent;
+    background: #404bbf;
+    color: var(--white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12); }
 .portfolio-gallery{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px
 }
 .portfolio-element{
   flex-basis: calc((100% - 48px) / 3);
 }
 .content-wrapper{
   border: 1px solid #E7E9FC;
+  border-top: none;
   background: var(--white-color);
   padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   width: 360px;
 }
