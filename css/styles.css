@@ -32,7 +32,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-}
+};
 
 .link {
   color: currentColor;
@@ -247,7 +247,6 @@ background-color: #404bbf;
 }
 .what-section .container{
   border-radius: 0px 0px 4px 4px;
-  padding: 32px 16px;
 }
 .what-list{
   display: flex;
