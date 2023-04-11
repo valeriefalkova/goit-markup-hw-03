@@ -285,7 +285,7 @@ background-color: #404bbf;
 /*OUR TEAM*/
 .team-section{
   background-color:var(--light-color);
-  padding-bottom: 120px;
+  padding: 120px 0;
   }
 
 .employee-list{
