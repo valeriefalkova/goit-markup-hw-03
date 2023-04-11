@@ -17,13 +17,27 @@
   padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
  
 
@@ -32,7 +46,8 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-};
+  list-style: none;
+}
 
 .link {
   color: currentColor;
@@ -81,9 +96,6 @@ body{
 
 /*HEADER*/
 .header-section{
-  
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #E7E9FC;
 }
 .header-container{
@@ -96,9 +108,7 @@ body{
   align-items: center;
   gap: 40px;
 }
-.contacts-item:not(:last-child){
-  margin: 40 px;
-}
+
 .logo-nav{
   display: flex;
   align-items: center;
@@ -106,14 +116,21 @@ body{
 .contact-list{
   display: flex;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.contact-item{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .contact-item:not(:last-child)
 {
-  margin: 40px;
+  margin-right: 40px;
 }
 .logo-link{
   display: inline-block;
-  margin-bottom: 16px; 
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -242,7 +259,6 @@ background-color: #404bbf;
 /*WHAT ARE WE DOING*/
 .what-section{
   background: var(--white-color);
-  padding:120px 0px;
  
 }
 .what-section .container{
@@ -292,13 +308,13 @@ background-color: #404bbf;
 }
 /*footer*/
 .footer-section{
-  padding-top: 100px;
-  padding-bottom:100px;
+
   background: var(--dark-color);
 }
 
   .footer-text{
     margin-top: 19px;
+    padding-bottom: 100px;
     width: 264px;
   font-family: 'Roboto',sans-serif;
   font-style: normal;
@@ -369,3 +385,15 @@ background-color: #404bbf;
   padding: 32px 16px;
   width: 360px;
 }
+
+/*footer*/
+.logo-footer{display: inline-block;
+margin-top: 100px;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--link-color);
+margin-right: 76px;}
