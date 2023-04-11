@@ -259,6 +259,7 @@ background-color: #404bbf;
 /*WHAT ARE WE DOING*/
 .what-section{
   background: var(--white-color);
+  padding-bottom: 120px;
  
 }
 .what-section .container{
@@ -284,7 +285,6 @@ background-color: #404bbf;
 /*OUR TEAM*/
 .team-section{
   background-color:var(--light-color);
-  padding: 120px 0;
   margin-top: auto;
   margin-bottom: auto;
   }
@@ -310,11 +310,12 @@ background-color: #404bbf;
 .footer-section{
 
   background: var(--dark-color);
+  padding: 100px 0 
 }
 
   .footer-text{
-    margin-top: 19px;
-    padding-bottom: 100px;
+    
+   
     width: 264px;
   font-family: 'Roboto',sans-serif;
   font-style: normal;
@@ -324,7 +325,16 @@ background-color: #404bbf;
   letter-spacing: 0.02em;
   color:var(--light-color);
   }
-  
+  .logo-footer{display: inline-block;
+    margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--link-color);
+    margin-right: 76px;}
 
   /*PORTFOLIO*/
   .portfolio-section{
@@ -386,14 +396,3 @@ background-color: #404bbf;
   width: 360px;
 }
 
-/*footer*/
-.logo-footer{display: inline-block;
-margin-top: 100px;
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--link-color);
-margin-right: 76px;}
